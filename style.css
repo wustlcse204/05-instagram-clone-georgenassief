@@ -1,0 +1,1036 @@
+body{
+    width: 100%;
+    position: relative;
+    min-width:481px;
+    
+}
+.searcher{
+    position:fixed;
+}
+
+.searchi{
+   left: 52%;
+    position:fixed;
+    float:left;
+    top:25px;
+    margin-right:2px;
+
+
+}
+.searchi:focus{
+    background:#d3d3d3;
+}
+.posts{
+    display:flex;
+    width:2000px;
+    align-items:center;
+    justify-content:center;
+}
+.heart{
+    right: 10%;
+    position: fixed;
+    margin-left:15px;
+   display:flex;
+}
+.icon{
+    left:12%;
+    position: fixed;
+    float:left;
+    display: flex;
+    margin-right:10px;
+    margin:auto;
+}
+.logo{
+    float: left;
+    position:fixed;
+    left:15%;
+    margin-right:50px;
+}
+.user{
+    right: 6%;
+    position: fixed;
+    margin-left:15px;
+    
+   
+}
+.compass{
+    right: 14%;
+    position: fixed;
+    margin-left:5px;
+   
+}
+.vl {
+    border-left: 6px solid grey;
+    height: 5px;
+    position: fixed;
+    left: 20%;
+    float:left;
+  }
+
+  .verticalLine {
+    border-left: 1px solid grey;
+  height: 20px;
+  position: fixed;
+ left:14%;
+  float:left;
+
+
+  }
+  .search{
+    position: fixed;
+    left: 55%;
+    width: 198px;
+    height: 23.5px;
+    background: #fafafa;
+    border: 1.5px solid #dfdfdf;
+    color: black;
+    text-align: center;
+    margin-left:1%;
+    transform: translateX(-50%);
+
+
+}
+.search:focus{
+    background:#d4d4d4;
+}
+.bar{
+    height: 49px;
+    left: 0px;
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    position:fixed;
+    z-index: 999;
+    top: 0px;
+    background: #fff;
+    top:0px;
+    padding: 6px 0px;
+    position: fixed;
+
+    justify-content: center;
+
+}
+
+.lining{
+    width: 60%;
+    max-width: 10000px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.bari{
+    height: 22px;
+    position: fixed;
+}
+
+
+  
+  
+
+  .post1{
+    position: absolute;
+    top: 80px;
+   left: 10%;
+    width: 42%;
+    margin-top:2%;
+    background: #fff;
+    border: 1.1px solid #dfdfdf;
+ 
+    flex-direction: column;
+    min-width:500px;
+    max-width:700px;
+    display: flex;
+
+}
+
+.post1pic>img{
+    position: relative;
+    width:100%;
+    top: -82px;
+    margin: 10px 0 20px;
+}
+
+.profile>img{
+    position: relative;
+    margin: 20px 0 10px;
+    top: -60px;
+    
+    left: 26px;
+   
+}
+.titlep>h4{
+    position: relative;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:12px;
+    top:-2px;
+    left: 66px;
+}
+.titlep2>h4{
+    position: relative;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:12px;
+    top:0px;
+
+   
+    left: 66px;
+}
+.post1h{
+    position: relative;
+   float:left;
+    top:-90px;
+    left:16px;
+}
+.post1com{
+    position: relative;
+    float:left;
+    top:-91px;
+    left: 28px;
+}
+.post1upl{
+    position: relative;
+    top:-92px;
+    left: 40px ;
+    float:left;
+}
+.post1book{
+    position: relative;
+    float:right;
+    top:-90px;
+  
+    right:18px; 
+}
+.postcomm{
+    float:left;
+   left:3%;
+   position: absolute;
+   width:96%;
+   top:540px;
+   
+}
+.postcomm>h4{
+    float:left;
+   left:10%;
+   position: absolute;
+   width:96%;
+   top:-100px;
+   float:left;
+   left:1%;
+   position: absolute;
+   font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+   Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+   font-size:14px;
+   color: rgb(163, 163, 163);
+   top:-1px;
+   margin-bottom: 0px;
+}
+.postunders{
+    width:100%;
+    position: relative;
+    height:50px;
+    
+}
+
+
+
+  
+
+  .post2{
+    width: 42%;
+    
+    flex-direction: column;
+   
+    position: absolute;
+    top: 900px;
+
+    float: left;
+    left:10%;
+    
+    border: 1.1px solid #dfdfdf;
+    margin-top:5%;
+    min-width:500px;
+    max-width:700px;
+   
+    
+    
+    
+}
+.post2pic>img{
+    position: relative;
+    width:100%;
+    top:-100px;
+  float:left;
+    
+    margin: 5px 0 20px;
+
+
+}
+
+.profile2>img{
+    position: relative;
+    margin: 20px 0 30px;
+    top: -60px;
+    
+    left: 20px;
+   
+}
+
+.post2h{
+    position: relative;
+   float:left;
+    top:-110px;
+    left:16px;
+}
+.post2com{
+    position: relative;
+    float:left;
+    top:-111px;
+    left: 28px;
+}
+.post2upl{
+    position: relative;
+    float:left;
+    top:-112px;
+    left: 40px ;
+}
+.post2book{
+    position: relative;
+    float:right;
+    top:-110px;
+  
+    right:18px; 
+}
+.post2comm{
+    float:left;
+   left:-10px;
+   position: relative;
+   width:96%;
+   margin-bottom: 0px;
+}
+.post2comm{
+    float:left;
+   left:-10px;
+   position: relative;
+   width:96%;
+   margin-bottom: 0px;
+   top:-30px;
+}
+
+
+.profile2likes>h4{
+    position: relative;
+    left:-47px;
+    top:-95px;
+    float:left;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:11px;
+}
+
+.days>h4{
+    position: absolute;
+    left:3%;
+    top:-39px;
+  
+    float:left; 
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:10px;
+    color: rgb(163, 163, 163);
+  
+
+}
+.days2>h4{
+    position: absolute;
+    left:3%;
+    top:505px;
+  
+    float:left; 
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:10px;
+    color: rgb(163, 163, 163);
+  
+
+}
+
+.profile1likes{
+    position: relative;
+    left: -42px;
+    top: -78px;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:11px;
+    float: left;
+}
+.comment{
+    position: absolute;
+    margin-left:20px;
+    left:4.5%;
+    display:flex;
+    top:-58px;
+    font-family: "Times New Roman", Times, serif;
+ 
+ 
+  font-size: 11px;
+  color: #262626;
+  background: none;
+
+    float: left;
+}
+
+.profilename{
+    position: absolute;
+    left:3%;
+    top: -60px;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    margin-right:10%;
+
+    float: left;
+}
+
+
+
+.postcomm2{
+    float:left;
+   left:1%;
+   position: absolute;
+   width:96%;
+   top:-5px;
+
+}
+.dot2{
+    position:absolute;
+    left:90%;
+    top:10px;
+}
+.postcomm2>h4{
+    float:left;
+   left:1%;
+   position: absolute;
+   font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+   Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+   font-size:14px;
+   color: rgb(163, 163, 163);
+   top:-3px;
+
+   
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .logo {
+margin-left: 15px; 
+margin-right:15px;   }
+  
+  .search{
+    margin-left:20px;
+  }
+  .verticalLine{
+    margin-left:18px;
+    
+  }
+.icon{
+    margin-right:15px;
+}
+
+}
+.posts{
+display:table-cell;
+vertical-align: middle;
+width:300px;
+height:400px;
+}
+
+
+
+@media screen and (max-width: 1025px) {
+    .logo {
+margin-left: 15px; 
+margin-right:15px;   }
+  
+  .search{
+    margin-left:20px;
+  }
+  .verticalLine{
+    margin-left:15px;
+    
+  }
+  .days{
+    position:absolute; left:3%;width:100%;
+  }
+.icon{
+    margin-right:15px;
+}
+.searchi{
+    left:50%;
+}
+
+}
+.profilename2{
+    position: absolute;
+    left:3%;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    margin-top:1.5%;
+
+    top:475px;
+    float: left;
+}
+
+.comment2{
+    position: absolute;
+    left:10%;
+    top:479px;
+    float:left;
+    position: absolute;
+    display:flex;
+    margin-left:10px;
+    margin-top:1.5%;
+    font-size:10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.suggested{
+    display: flex;
+    position: absolute;
+   top:1650px;
+   left:10%;
+   width:42%;
+    background: #fff;
+    border: 1.1px solid #dfdfdf;
+    justify-content: center;
+    min-width:500px;
+    height:180px;
+    margin-bottom: 5%;
+}
+.suggested>h3{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:10px;
+    color: rgb(163, 163, 163);
+    position: absolute;
+    left:4%;
+    top:10px;
+    position: absolute;
+}
+.suggested>h4{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:10px;
+    color: rgba(var(--d69,0,149,246),1);
+    position: absolute;
+    left:90%;
+    top:10px;
+    position: absolute;
+}
+.box{
+   
+    width: 25%;
+    height:120px;
+    left:4%;
+    top:50px;
+    position:absolute;
+    background: #fff;
+
+    border: 1px solid #dfdfdf;
+    justify-content: center;
+   
+  }
+  .box2{
+   
+    width: 25%;
+    height:120px;
+    left:38%;
+    top:50px;
+    position:absolute;
+    background: #fff;
+
+    border: 1px solid #dfdfdf;
+    justify-content: center;
+   
+  }
+  .box3{
+   
+    width: 25%;
+    height:120px;
+    left:70%;
+    top:50px;
+    position:absolute;
+    background: #fff;
+
+    border: 1px solid #dfdfdf;
+    justify-content: center;
+   
+  }
+.stl{
+    position:absolute;
+width:70%;
+left:28%;
+}
+
+.follow{
+    position:absolute;
+width:70%;
+left:14%;
+top:73px;
+}
+.con{
+    position:absolute;
+width:72%;
+left:24%;
+}
+
+.follow2{
+    position:absolute;
+width:70%;
+left:14%;
+top:73px;
+}
+.mum{
+    position:absolute;
+width:70%;
+left:28%;
+}
+
+.follow3{
+    position:absolute;
+    width:70%;
+    left:14%;
+    top:73px;
+}
+.box>h4{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:8px;
+    position:absolute;
+    top:45px;
+    left:35%;
+    z-index:1;
+}
+.box>h5{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:8px;
+    color: rgb(163, 163, 163);
+    position: absolute;
+    top:53px;
+    left:35%;
+    z-index:1;
+
+}
+.box2>h4{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:8px;
+    position:absolute;
+    top:46px;
+    left:38%;
+    z-index:1;
+}
+.box2>h5{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:8px;
+    color: rgb(163, 163, 163);
+    position: absolute;
+    top:53px;
+    left:38%;
+    z-index:1;
+
+}
+.box3>h4{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:8px;
+    position:absolute;
+    top:48px;
+    left:42%;
+    z-index:1;
+}
+.box3>h5{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:8px;
+    color: rgb(163, 163, 163);
+    position: absolute;
+    top:55px;
+    left:38%;
+    z-index:1;
+
+}
+.sq{
+    position:absolute;
+
+    float:right;
+}
+.sidebar{
+    float:left;
+    left:90%;
+    position:fixed;
+    top:60px;
+}
+.me>h4{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    top:75px;
+    left:70%;
+    font-size:13px;
+    float:right;
+    position:fixed;
+    margin-left:15px;
+    
+}
+.me>h5{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:10px;
+    color: rgb(163, 163, 163);
+    top:90px;
+    left:70%;
+    float:right;
+    position:fixed;
+    margin-left:15px;
+
+    
+}
+.me>img{
+    position:fixed;
+    top:80px;
+    left:65%;
+    float:right;
+
+    clip-path: circle();
+
+
+}
+
+.stories{
+    position:fixed;
+    top:150px;
+    left:65%;
+    width:25%;
+    float:right; 
+    margin-left:20px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    height:230px;
+    overflow:scroll;
+
+}
+
+
+@media all and (max-width: 1025px) {
+    .sidebar { display: none; }
+    body
+    {
+        margin:auto;
+        width:50%;
+       display:flex;
+    } 
+    .days{
+        position:absolute; left:0.5%;
+    }
+    
+}
+        
+    
+   
+.links{
+   position:fixed;
+   float:right;
+   left:67%;
+   top:380px;
+   width:13%;
+   font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+   Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+   font-size:10px;
+   
+
+   
+
+}
+.links>a{
+    color:rgb(163, 163, 163);
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+  
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-decoration: none; 
+}
+.links .f{
+    position:fixed;
+   float:right;
+   left:67%;
+
+   top:423px;
+   
+
+}
+.links .f>a{
+    color:rgb(163, 163, 163);
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+  
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-decoration: none; 
+}
+   
+  
+  .kim{
+    left:11%;
+    float:right;
+    position:absolute;
+    width:100px;
+    margin-left:10px;
+    top:30px;
+    margin-bottom:10px;
+  }
+  .kim>h4{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:11px;
+    float:right;
+    left:10%;
+    position:absolute;
+    margin-left:15px;
+    top:6px;
+    
+}
+.kim>h5{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:8px;
+    color: rgb(163, 163, 163);
+    top:20px;
+    left:10%;
+
+    float:right;
+    position:absolute;
+    margin-left:15px;
+
+    
+}
+.kim>img{
+    float:right;
+    position:absolute;
+    left:-48%;
+
+    clip-path: circle();
+    margin-left:5px;
+
+
+}
+.elon{
+    left:20%;
+    margin-left:4%;
+    float:right;
+    position:absolute;
+    width:50%;
+    top:100px;
+    margin-bottom:10px;
+  }
+  .elon>h4{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:10px;
+    left:-20%;
+    top:-2px;
+    float:right;
+    position:absolute;
+    margin-left:25px;
+    
+}
+.elon>h5{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:8px;
+    color: rgb(163, 163, 163);
+    left:-20%;
+    top:11px;
+
+    float:right;
+    position:absolute;
+    margin-left:25px;
+
+    
+}
+.elon>img{
+    position:absolute;
+    float:right;
+    left:-49%;
+    clip-path: circle();
+margin-left:5px;    
+
+}
+.mark{
+    left:-1%;
+    float:right;
+    position:absolute;
+    width:100px;
+    top:160px;
+    margin-bottom:10px;
+    margin-left:4%;
+  }
+  .mark>h4{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:10px;
+    float:right;
+    left:44%;
+    top:3px;
+    
+    position:absolute;
+    margin-left:15%;
+    
+}
+.mark>h5{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:8px;
+    color: rgb(163, 163, 163);
+    top:16px;
+    width:100%;
+    left:44%;
+    float:right;
+    position:absolute;
+    margin-left:15px;
+
+    
+}
+.mark>img{
+    position:absolute;
+    float:right;
+
+    clip-path: circle();
+
+
+}
+.bill{
+
+    left:0%;
+    float:right;
+    position:absolute;
+    width:100px;
+    top:215px;
+    margin-bottom:10px;
+  }
+  .bill>h4{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:10px;
+    float:right;
+    left:56%;
+    top:3px;
+    position:absolute;
+    margin-left:15px;
+    
+}
+.bill>h5{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:8px;
+    color: rgb(163, 163, 163);
+    top:16px;
+    left:56%;
+    width:124%;
+    float:right;
+    position:absolute;
+    margin-left:15px;
+
+    
+}
+.bill>img{
+    position:absolute;
+    float:right;
+
+    clip-path: circle();
+
+
+}
+.stephen{
+
+    left:3%;
+    float:right;
+    position:absolute;
+    width:100px;
+    top:275px;
+    margin-bottom:10px;
+  }
+  .stephen>h4{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:10px;
+    left:49%;
+    top:5px;
+    float:right;
+    position:absolute;
+    margin-left:15px;
+    
+}
+.stephen>h5{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:8px;
+    color: rgb(163, 163, 163);
+    top:18px;
+    left:49%;
+    width:100%;
+    float:right;
+    position:absolute;
+    margin-left:15px;
+
+    
+}
+.stephen>img{
+    position:absolute;
+    float:right;
+
+    clip-path: circle();
+
+
+}
+.sw{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:12px;
+    color: rgb(163, 163, 163);
+    top:-8px;
+    position:absolute;
+    
+    
+
+}
+.si{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size:13px;
+    top:-8px;
+    left:80%;
+    position:absolute;
+}
+@media all and (max-width: 1250px) {
+    .sidebar { margin-left:5000px;}
+    .unders{position:absolute;top:-70px;width:100%;}
+    .profilename{position:absolute;left:18px;width:100%;}
+
+    .comment{position:absolute;left:24px;width:100%;}
+  }
+  
+  .dot{
+    position:absolute;
+    left:90%;
+    top:12px;
+  }
+
+  
